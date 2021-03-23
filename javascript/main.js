@@ -25,15 +25,49 @@ var lista = ["maça", "pera","laranja"];
 
 //Dicionário
 var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
-console.log(frutas);
+
+/*console.log(frutas);
 console.log(frutas[1].nome);
 
 console.log(lista);
 console.log(lista[1]);
 
-//lista.push("uva");
-//lista.pop();
+lista.push("uva");
+lista.pop();
 console.log(lista.length);
-//console.log(lista.reverse());
+console.log(lista.reverse());
 console.log(lista.toString());
-//console.log(lista.join(" | "));
+console.log(lista.join(" | "));*/
+
+// Aula 03
+
+var idade = prompt("Qual sua idade ?");
+
+// Condicional
+if(idade >= 18) {
+    alert("maior de idade");
+} else {
+    alert("menor de idade");
+};
+
+var count = 0;
+
+// Laços de Repetição
+while(count <= 5) {
+    console.log(count);
+    /*count = count + 1;
+    count++;   */
+    count += 1;
+};
+
+// Laços de Repetição
+for (count = 0; count <=5; count++) {
+    console.log(count);
+};
+
+// Date
+var d = new Date();
+console.log(d);
+console.log(d.getMonth()+1);
+console.log(d.getUTCDay());
+console.log(d.getHours());
