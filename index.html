@@ -10,7 +10,7 @@
     <title>Web Developer</title>
 </head>
 
-<body>
+<body onload="load()">
 
     <header>
         <img src="images/image.jpg" alt="códigoHTML" class="photo">
@@ -35,6 +35,15 @@
                 software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </article>
     </section>
+    <button type="button" onclick="clicou()">Clique Aqui</button>
+    <h4 id="tankyou" onclick="redirecionar()"></h4>
+    <h4 id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h4>
+    <h4 onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h4>
+    <select onchange="change(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
     <footer>
         <ul class="contacts_list">
             <li>
