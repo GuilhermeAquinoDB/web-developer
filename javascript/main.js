@@ -41,9 +41,9 @@ console.log(lista.join(" | "));*/
 
 // Aula 03
 
-var idade = prompt("Qual sua idade ?");
+//var idade = prompt("Qual sua idade ?");
 
-// Condicional
+/* Condicional
 if(idade >= 18) {
     alert("maior de idade");
 } else {
@@ -52,22 +52,46 @@ if(idade >= 18) {
 
 var count = 0;
 
-// Laços de Repetição
+ //Laços de Repetição
 while(count <= 5) {
-    console.log(count);
+    //console.log(count);
     /*count = count + 1;
-    count++;   */
+    count++;   
     count += 1;
-};
+ };  */ 
 
-// Laços de Repetição
+/* Laços de Repetição
 for (count = 0; count <=5; count++) {
     console.log(count);
-};
+};*/
 
 // Date
-var d = new Date();
+/*var d = new Date();
 console.log(d);
 console.log(d.getMonth()+1);
 console.log(d.getUTCDay());
-console.log(d.getHours());
+console.log(d.getHours());*/
+
+
+// Aula04
+
+function soma(n1 , n2) {
+    return n1 + n2;
+}
+
+//console.log(soma(5,10));
+
+var validar = 0;
+
+function validaIdade(idade) {
+    if (idade >= 18) {
+        validar = true
+    } else {
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade ? ");
+validaIdade(idade)
+console.log(validar);
